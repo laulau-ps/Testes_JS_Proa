@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste JS - 3</title>
+</head>
+
+<body>
+    <h2>O que o JavaScript pode fazer?</h2>
+
+    <p>JavaScript pode mudar o valor dos atributos do HTML</p>
+
+    <p>Neste caso, o JavaScript muda o valor do atributo src de uma imagem.</p>
+
+    <button onclick="document.getElementById('imagem').src='img/lampada_acesa.png'">
+        Acenda a lâmpada
+    </button>
+
+    <img id="imagem" src="img/lampada_apagada.png" alt="desenho de lampada apagada" width="100px">
+
+    <button onclick="document.getElementById('imagem').src='img/lampada_apagada.png'">
+        Apague a lâmpada
+    </button>
+</body>
+
+</html>
